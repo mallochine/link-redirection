@@ -1,0 +1,3 @@
+include practice/config/deployment.ini_tmpl
+recursive-include practice/public *
+recursive-include practice/templates *

@@ -1,0 +1,62 @@
+/* can't get sticky footer right :(
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    z-index: 2;
+}
+*/
+
+/*
+#footer {position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    height: 180px;
+}
+*/
+
+/*
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    left: 0;
+    width: 100%;
+}
+*/
+
+html, body {height: 100%;}
+
+table {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#666;
+    font-size:12px;
+    text-shadow: 1px 1px 0px #fff;
+    background:#eaebec;
+    margin:20px;
+    border:#ccc 1px solid;
+
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+
+    -moz-box-shadow: 0 1px 2px #d1d1d1;
+    -webkit-box-shadow: 0 1px 2px #d1d1d1;
+    box-shadow: 0 1px 2px #d1d1d1;
+}
+
+table tr {
+    text-align: center;
+    padding-left:20px;
+}
+
+table td {
+    padding:18px;
+    border-top: 1px solid #ffffff;
+    border-bottom:1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+
+    background: #fafafa;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+    background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
